@@ -61,15 +61,6 @@ sh_binary {
 }
 
 sh_binary {
-	name: "android.hardware.wifi-service",
-	owner: "oneplus",
-	src: "proprietary/vendor/bin/hw/android.hardware.wifi-service",
-	filename: "android.hardware.wifi-service",
-	sub_dir: "hw",
-	soc_specific: true,
-}
-
-sh_binary {
 	name: "iwpriv",
 	owner: "oneplus",
 	src: "proprietary/odm/bin/iwpriv",
