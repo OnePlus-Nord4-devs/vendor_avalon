@@ -363,7 +363,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/avalon/proprietary/vendor/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_to_wake.json \
     vendor/oneplus/avalon/proprietary/vendor/etc/sensors/config/sns_transport_ppe.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_transport_ppe.json \
     vendor/oneplus/avalon/proprietary/vendor/etc/sensors/config/sns_wrist_pedo.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_wrist_pedo.json \
-    vendor/oneplus/avalon/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config
+    vendor/oneplus/avalon/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
+    vendor/oneplus/avalon/proprietary/vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so \
+    vendor/oneplus/avalon/proprietary/vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.AGMIPC@1.0.so
 
 PRODUCT_PACKAGES += \
     android.hardware.wifi.hostapd-V1-ndk \
